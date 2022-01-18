@@ -1,0 +1,87 @@
+/*css reset*/
+body{
+    margin: 0;
+    padding: 0;
+    background:url('background.jpg') no-repeat center/cover;
+    color: aliceblue;  
+}
+.left{
+    display: inline-block;
+   
+    position: absolute;
+    left: 20px;
+    top: 30px;
+    
+}
+.left img{
+    width: 200px;
+    filter: invert(0%);
+}
+
+.mid{
+   
+    display: block;
+    width: 50%;
+    margin: 30px auto;
+    right: 50px;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    margin: 15px;
+    cursor: pointer;
+    padding: 3px 5px;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: 'Mochiy Pop P One', sans-serif;
+} 
+
+.navbar li a{
+    color: rgb(10, 10, 10);
+    text-decoration: none;
+    font-size: 1.5rem; 
+
+}
+.navbar li a:hover{
+    color: white;
+    background-color: khaki;
+    border-radius: 50px;
+}
+.container{
+    
+    margin:  100px 380px;
+    width: 50%;
+    display: block;
+    padding: 3px 10px ;
+    font-family: 'Josefin Sans', sans-serif;
+    
+
+}
+.container h2{
+    color: rgb(75, 11, 11);
+    font-size: 45px;
+    font-family: cursive;
+    font-style: oblique;
+}
+.container h1{
+    color: rgb(243, 249, 250);
+    font-family: sans-serif;
+}
+.container p{
+    color: rgb(7, 12, 12);
+    font-size: 25px;
+    font-family: 'Luxurious Roman',
+}
+.input[type="button"]{
+    border-radius: 20px;
+    background-color: indianred;
+    cursor: pointer;
+    border-color: ivory;
+    font-weight: bold;
+
+}
+.container button:hover{
+    background-color: khaki;
+}
